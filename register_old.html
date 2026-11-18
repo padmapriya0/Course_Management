@@ -1,0 +1,439 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1, shrink-to-fit=no"
+    />
+    <link rel="icon" href="img/favicon.png" type="image/png" />
+    <title>Student Registration</title>
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="css/bootstrap.css" />
+    <link rel="stylesheet" href="css/flaticon.css" />
+    <link rel="stylesheet" href="css/themify-icons.css" />
+    <link rel="stylesheet" href="vendors/owl-carousel/owl.carousel.min.css" />
+    <link rel="stylesheet" href="vendors/nice-select/css/nice-select.css" />
+    <!-- main css -->
+    <link rel="stylesheet" href="css/style.css" />
+  </head>
+
+  <body>
+    <!--================ Start Header Menu Area =================-->
+    <header class="header_area">
+      <div class="main_menu" style="background-color: white">
+        <!-- <div class="search_input" id="search_input_box">
+          <div class="container">
+            <form class="d-flex justify-content-between" method="" action="">
+              <input
+                type="text"
+                class="form-control"
+                id="search_input"
+                placeholder="Search Here"
+              />
+              <button type="submit" class="btn"></button>
+              <span
+                class="ti-close"
+                id="close_search"
+                title="Close Search"
+              ></span>
+            </form>
+          </div>
+        </div> -->
+
+        <nav class="navbar navbar-expand-lg navbar-light">
+          <div class="container">
+            <!-- Brand and toggle get grouped for better mobile display -->
+            <a
+              class="navbar-brand logo_h"
+              href="index.html"
+              style="font-weight: 700"
+              >ZS Classes</a
+            >
+
+            <button
+              class="navbar-toggler"
+              type="button"
+              data-toggle="collapse"
+              data-target="#navbarSupportedContent"
+              aria-controls="navbarSupportedContent"
+              aria-expanded="false"
+              aria-label="Toggle navigation"
+            >
+              <span class="icon-bar"></span> <span class="icon-bar"></span>
+              <span class="icon-bar"></span>
+            </button>
+            <!-- Collect the nav links, forms, and other content for toggling -->
+            <div
+              class="collapse navbar-collapse offset"
+              id="navbarSupportedContent"
+            >
+              <ul class="nav navbar-nav menu_nav ml-auto">
+                <li class="nav-item active">
+                  <a class="nav-link" href="index.html">Home</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="about-us.html">About</a>
+                </li>
+                <!-- <li class="nav-item">
+                  <a class="nav-link" href="Gallery.html">Gallery</a>
+                </li> -->
+                <li class="nav-item submenu dropdown">
+                  <a
+                    href="#"
+                    class="nav-link dropdown-toggle"
+                    data-toggle="dropdown"
+                    role="button"
+                    aria-haspopup="true"
+                    aria-expanded="false"
+                    >Projects</a
+                  >
+                  <ul class="dropdown-menu">
+                    <li class="nav-item">
+                      <a class="nav-link" href="img/Projects.pdf"
+                        >Completed Projects</a
+                      >
+                    </li>
+                    <li class="nav-item">
+                      <a class="nav-link" href="">Future Projects</a>
+                    </li>
+                    <!-- <li class="nav-item">
+                      <a class="nav-link" href="elements.html">Elements</a>
+                    </li> -->
+                  </ul>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="Videos.html">Classes</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="contact.html">Contact</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="Registration.html">Register</a>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </nav>
+      </div>
+    </header>
+    <!--================ End Header Menu Area =================-->
+
+    <!--================Home Banner Area =================-->
+    <section class="banner_area">
+      <div class="banner_inner d-flex align-items-center">
+        <div class="overlay"></div>
+        <div class="container">
+          <div class="row justify-content-center">
+            <div class="col-lg-6">
+              <div class="banner_content text-center">
+                <h2>Student Registration</h2>
+                <div class="page_link">
+                  <a href="index.html">Home</a>
+                  <a href="">Student Registration</a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!--================End Home Banner Area =================-->
+
+    <!--================ Start About Area =================-->
+    <!--  -->
+
+    <section class="register-wrapper">
+      <div class="register-box">
+        <h2>Student Registration</h2>
+
+        <form id="registerForm">
+          <input type="text" name="name" placeholder="Full Name" required />
+          <input type="tel" name="phone" placeholder="Phone Number" required />
+          <input type="email" name="email" placeholder="Email ID" required />
+          <input
+            type="password"
+            name="password"
+            placeholder="Password"
+            required
+          />
+
+          <select name="student_of" required>
+            <option value="" disabled selected>You are a student of</option>
+            <option value="11th">11th</option>
+            <option value="12th">12th</option>
+          </select>
+
+          <select name="looking_for" required>
+            <option value="" disabled selected>Looking For</option>
+            <option value="JEE">JEE</option>
+            <option value="NEET">NEET</option>
+            <option value="CET">CET</option>
+          </select>
+
+          <button type="submit">Register</button>
+        </form>
+      </div>
+    </section>
+
+    <div id="popup" class="popup">
+      <div class="popup-content">
+        <h3>✅ Success</h3>
+        <p>Registration completed successfully!</p>
+        <button onclick="closePopup()">OK</button>
+      </div>
+    </div>
+    <style>
+      /* body {
+        margin-top: 100px;
+      } */
+      /* ONLY CENTERING – NOTHING ELSE */
+      .register-wrapper {
+        display: flex;
+        justify-content: center;
+        padding: 80px 15px;
+      }
+
+      .register-box {
+        background: rgb(255, 255, 255);
+        padding: 25px;
+        width: 450px;
+        border-radius: 8px;
+        box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+      }
+
+      .register-box h2 {
+        text-align: center;
+        margin-bottom: 20px;
+        color: black;
+      }
+
+      /* Fix for invisible dropdowns */
+      .register-box input,
+      .register-box select,
+      .register-box .nice-select,
+      .register-box button {
+        width: 100% !important;
+        height: 45px !important;
+        line-height: 25px !important;
+        padding: 10px;
+        margin-bottom: 12px;
+        border-radius: 5px;
+        border: 1px solid #ccc;
+        display: block;
+        color: #444 !important; /* Forces text to be visible */
+        background-color: #fff;
+      }
+
+      /* Ensure the text inside nice-select is visible */
+      .register-box .nice-select .current {
+        color: #444 !important;
+      }
+
+      .register-box button {
+        background: #007bff;
+        color: white !important;
+        border: none;
+        cursor: pointer;
+        font-weight: bold;
+      }
+
+      .register-box button:hover {
+        background: #0056b3;
+      }
+
+      /* POPUP STYLING */
+      .popup {
+        display: none;
+        position: fixed;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        background: rgba(0, 0, 0, 0.6);
+        justify-content: center;
+        align-items: center;
+        z-index: 9999;
+      }
+
+      .popup-content {
+        background: white;
+        padding: 25px;
+        text-align: center;
+        border-radius: 8px;
+        width: 300px;
+        color: black;
+      }
+
+      .popup-content button {
+        margin-top: 15px;
+        padding: 8px 20px;
+        background: #28a745;
+        border: none;
+        color: rgb(19, 18, 18);
+        border-radius: 5px;
+        cursor: pointer;
+      }
+    </style>
+    <!--================ Start footer Area  =================-->
+    <footer class="footer-area section_gap">
+      <div class="container">
+        <div class="row">
+          <!-- Logo Section -->
+          <div class="col-lg-3 col-md-6 single-footer-widget">
+            <h4>ZS Classes</h4>
+            <span
+              style="
+                font-size: 24px;
+                font-weight: bold;
+                color: #333;
+                max-width: 150px;
+                margin-top: 10px;
+                display: inline-block;
+              "
+            >
+            </span>
+
+            <p>
+              Explore a variety of powerful learning features designed to help
+              students succeed.
+            </p>
+          </div>
+
+          <!-- Quick Links -->
+          <div class="col-lg-3 col-md-6 single-footer-widget">
+            <h4>Quick Links</h4>
+            <ul>
+              <li><a href="index.html">Home</a></li>
+              <li><a href="about-us.html">About Us</a></li>
+              <li><a href="Videos.html">Classes</a></li>
+              <li><a href="contact.html">Contact</a></li>
+            </ul>
+          </div>
+
+          <!-- Contact Details -->
+          <div class="col-lg-3 col-md-6 single-footer-widget">
+            <h4>Contact Us</h4>
+            <ul>
+              <li><i class="ti-location-pin"></i> Bengaluru</li>
+              <li><i class="ti-mobile"></i> +91 80885 25184</li>
+              <li><i class="ti-email"></i> info@zameersirclasses.in</li>
+            </ul>
+          </div>
+
+          <!-- Newsletter -->
+          <div class="col-lg-3 col-md-6 single-footer-widget">
+            <h4>Newsletter</h4>
+            <div class="form-wrap" id="mc_embed_signup">
+              <form
+                target="_blank"
+                action="https://spondonit.us12.list-manage.com/subscribe/post?u=1462626880ade1ac87bd9c93a&amp;id=92a4423d01"
+                method="get"
+                class="form-inline"
+              >
+                <input
+                  class="form-control"
+                  name="EMAIL"
+                  placeholder="Your Email Address"
+                  required=""
+                  type="email"
+                />
+                <button class="click-btn btn btn-default">
+                  <span>subscribe</span>
+                </button>
+              </form>
+            </div>
+          </div>
+        </div>
+
+        <!-- Footer Bottom -->
+        <div class="row footer-bottom d-flex justify-content-between">
+          <p class="col-lg-8 col-sm-12 footer-text m-0 text-white">
+            Copyright &copy;
+            <script>
+              document.write(new Date().getFullYear());
+            </script>
+            All rights reserved | Designed by
+            <span class="designer">
+              <!-- <i class="ti-heart" aria-hidden="true"></i> -->
+              <a
+                href="https://www.staticdevelopers.in/"
+                target="_blank"
+                class="text-white designer-link"
+                >CDP</a
+              >
+            </span>
+          </p>
+
+          <div class="col-lg-4 col-sm-12 footer-social">
+            <a
+              href="https://www.facebook.com/people/BZ-Zameer-Ahmed-Khan/100044670723173/#"
+              ><i class="ti-facebook"></i
+            ></a>
+            <a href="https://www.instagram.com/b.z.zameerahmedkhan/"
+              ><i class="ti-instagram"></i
+            ></a>
+            <a href="https://www.youtube.com/channel/UCTlvfqfwxHSRM-qJGXYZbkQ"
+              ><i class="ti-youtube"></i
+            ></a>
+            <a href="https://x.com/BZZameerAhmedK"
+              ><i class="ti-twitter"></i
+            ></a>
+          </div>
+        </div>
+      </div>
+    </footer>
+    <!--================ End footer Area  =================-->
+
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="js/jquery-3.2.1.min.js"></script>
+    <script src="js/popper.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script src="vendors/nice-select/js/jquery.nice-select.min.js"></script>
+    <script src="vendors/owl-carousel/owl.carousel.min.js"></script>
+    <script src="js/owl-carousel-thumb.min.js"></script>
+    <script src="js/jquery.ajaxchimp.min.js"></script>
+    <script src="js/mail-script.js"></script>
+    <!--gmaps Js-->
+    <script
+      src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCjCGmQ0Uq4exrzdcL6rvxywDDOvfAu6eE&callback=initMap"
+      async
+      defer
+    ></script>
+    <script>
+      function initMap() {
+        // your map code here
+      }
+    </script>
+
+    <script src="js/theme.js"></script>
+    <script>
+      document
+        .getElementById("registerForm")
+        .addEventListener("submit", function (e) {
+          e.preventDefault();
+          let formData = new FormData(this);
+
+          fetch("register.php", {
+            method: "POST",
+            body: formData,
+          })
+            .then((res) => res.text())
+            .then((data) => {
+              if (data.trim() === "success") {
+                document.getElementById("popup").style.display = "flex";
+                this.reset();
+              } else {
+                alert("Registration failed!");
+              }
+            });
+        });
+
+      function closePopup() {
+        document.getElementById("popup").style.display = "none";
+      }
+    </script>
+  </body>
+</html>

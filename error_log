@@ -1,0 +1,191 @@
+[14-Feb-2026 05:07:22 UTC] PHP Warning:  Undefined array key "email" in /home/natyakou/zameersirclasses.in/contact_process.php on line 4
+[14-Feb-2026 05:07:22 UTC] PHP Warning:  Undefined array key "name" in /home/natyakou/zameersirclasses.in/contact_process.php on line 5
+[14-Feb-2026 05:07:22 UTC] PHP Warning:  Undefined array key "subject" in /home/natyakou/zameersirclasses.in/contact_process.php on line 6
+[14-Feb-2026 05:07:22 UTC] PHP Warning:  Undefined array key "message" in /home/natyakou/zameersirclasses.in/contact_process.php on line 7
+[14-Feb-2026 05:07:22 UTC] PHP Warning:  Undefined variable $csubject in /home/natyakou/zameersirclasses.in/contact_process.php on line 28
+[16-Mar-2026 11:40:33 UTC] PHP Warning:  Undefined array key "email" in /home/natyakou/zameersirclasses.in/contact_process.php on line 4
+[16-Mar-2026 11:40:33 UTC] PHP Warning:  Undefined array key "name" in /home/natyakou/zameersirclasses.in/contact_process.php on line 5
+[16-Mar-2026 11:40:33 UTC] PHP Warning:  Undefined array key "subject" in /home/natyakou/zameersirclasses.in/contact_process.php on line 6
+[16-Mar-2026 11:40:33 UTC] PHP Warning:  Undefined array key "message" in /home/natyakou/zameersirclasses.in/contact_process.php on line 7
+[16-Mar-2026 11:40:33 UTC] PHP Warning:  Undefined variable $csubject in /home/natyakou/zameersirclasses.in/contact_process.php on line 28
+[05-May-2026 05:54:05 UTC] PHP Fatal error:  Uncaught mysqli_sql_exception: Access denied for user 'root'@'localhost' (using password: NO) in /home/natyakou/powerleader.in/db.php:7
+Stack trace:
+#0 /home/natyakou/powerleader.in/db.php(7): mysqli->__construct('localhost', 'root', Object(SensitiveParameterValue), 'sowmyareddy')
+#1 /home/natyakou/powerleader.in/login.php(3): require('/home/natyakou/...')
+#2 {main}
+  thrown in /home/natyakou/powerleader.in/db.php on line 7
+[05-May-2026 05:54:38 UTC] PHP Fatal error:  Uncaught mysqli_sql_exception: Access denied for user 'root'@'localhost' (using password: NO) in /home/natyakou/powerleader.in/db.php:7
+Stack trace:
+#0 /home/natyakou/powerleader.in/db.php(7): mysqli->__construct('localhost', 'root', Object(SensitiveParameterValue), 'sowmyareddy')
+#1 /home/natyakou/powerleader.in/login.php(3): require('/home/natyakou/...')
+#2 {main}
+  thrown in /home/natyakou/powerleader.in/db.php on line 7
+[19-May-2026 09:01:32 UTC] PHP Fatal error:  Uncaught mysqli_sql_exception: Access denied for user 'root'@'localhost' (using password: NO) in /home/natyakou/powerleader.in/classes.php:12
+Stack trace:
+#0 /home/natyakou/powerleader.in/classes.php(12): mysqli->__construct('localhost', 'root', Object(SensitiveParameterValue), 'zoomlive')
+#1 {main}
+  thrown in /home/natyakou/powerleader.in/classes.php on line 12
+[06-Jul-2026 06:09:38 UTC] PHP Fatal error:  Uncaught mysqli_sql_exception: Access denied for user 'dkshivkumar_db'@'localhost' (using password: NO) in /home/natyakou/powerleader.in/db.php:7
+Stack trace:
+#0 /home/natyakou/powerleader.in/db.php(7): mysqli->__construct('localhost', 'dkshivkumar_db', Object(SensitiveParameterValue), 'dkshivkumar')
+#1 /home/natyakou/powerleader.in/login.php(3): require('/home/natyakou/...')
+#2 {main}
+  thrown in /home/natyakou/powerleader.in/db.php on line 7
+[06-Jul-2026 06:09:46 UTC] PHP Fatal error:  Uncaught mysqli_sql_exception: Access denied for user 'root'@'localhost' (using password: NO) in /home/natyakou/powerleader.in/classes.php:12
+Stack trace:
+#0 /home/natyakou/powerleader.in/classes.php(12): mysqli->__construct('localhost', 'root', Object(SensitiveParameterValue), 'shivkumar_db')
+#1 {main}
+  thrown in /home/natyakou/powerleader.in/classes.php on line 12
+[06-Jul-2026 06:27:41 UTC] PHP Fatal error:  Uncaught mysqli_sql_exception: Access denied for user 'root'@'localhost' (using password: NO) in /home/natyakou/powerleader.in/classes.php:12
+Stack trace:
+#0 /home/natyakou/powerleader.in/classes.php(12): mysqli->__construct('localhost', 'root', Object(SensitiveParameterValue), 'shivkumar_db')
+#1 {main}
+  thrown in /home/natyakou/powerleader.in/classes.php on line 12
+[06-Jul-2026 06:30:35 UTC] PHP Fatal error:  Uncaught mysqli_sql_exception: Access denied for user 'dkshivkumar_db'@'localhost' (using password: YES) in /home/natyakou/powerleader.in/db.php:7
+Stack trace:
+#0 /home/natyakou/powerleader.in/db.php(7): mysqli->__construct('localhost', 'dkshivkumar_db', Object(SensitiveParameterValue), 'dkshivkumar')
+#1 /home/natyakou/powerleader.in/login.php(3): require('/home/natyakou/...')
+#2 {main}
+  thrown in /home/natyakou/powerleader.in/db.php on line 7
+[06-Jul-2026 06:36:47 UTC] PHP Fatal error:  Uncaught mysqli_sql_exception: Access denied for user 'root'@'localhost' (using password: NO) in /home/natyakou/powerleader.in/classes.php:12
+Stack trace:
+#0 /home/natyakou/powerleader.in/classes.php(12): mysqli->__construct('localhost', 'root', Object(SensitiveParameterValue), 'shivkumar_db')
+#1 {main}
+  thrown in /home/natyakou/powerleader.in/classes.php on line 12
+[06-Jul-2026 06:36:56 UTC] PHP Fatal error:  Uncaught mysqli_sql_exception: Access denied for user 'dkshivkumar_db'@'localhost' (using password: YES) in /home/natyakou/powerleader.in/db.php:7
+Stack trace:
+#0 /home/natyakou/powerleader.in/db.php(7): mysqli->__construct('localhost', 'dkshivkumar_db', Object(SensitiveParameterValue), 'dkshivkumar')
+#1 /home/natyakou/powerleader.in/login.php(3): require('/home/natyakou/...')
+#2 {main}
+  thrown in /home/natyakou/powerleader.in/db.php on line 7
+[06-Jul-2026 06:38:00 UTC] PHP Fatal error:  Uncaught mysqli_sql_exception: Access denied for user 'dkshivkumar_db'@'localhost' (using password: YES) in /home/natyakou/powerleader.in/db.php:7
+Stack trace:
+#0 /home/natyakou/powerleader.in/db.php(7): mysqli->__construct('localhost', 'dkshivkumar_db', Object(SensitiveParameterValue), 'dkshivkumar')
+#1 /home/natyakou/powerleader.in/login.php(3): require('/home/natyakou/...')
+#2 {main}
+  thrown in /home/natyakou/powerleader.in/db.php on line 7
+[06-Jul-2026 06:57:59 UTC] PHP Fatal error:  Uncaught mysqli_sql_exception: Access denied for user 'dkshivkumar_db'@'localhost' (using password: YES) in /home/natyakou/powerleader.in/db.php:7
+Stack trace:
+#0 /home/natyakou/powerleader.in/db.php(7): mysqli->__construct('localhost', 'dkshivkumar_db', Object(SensitiveParameterValue), 'dkshivkumar')
+#1 /home/natyakou/powerleader.in/login.php(3): require('/home/natyakou/...')
+#2 {main}
+  thrown in /home/natyakou/powerleader.in/db.php on line 7
+[06-Jul-2026 06:58:11 UTC] PHP Fatal error:  Uncaught mysqli_sql_exception: Access denied for user 'root'@'localhost' (using password: NO) in /home/natyakou/powerleader.in/classes.php:12
+Stack trace:
+#0 /home/natyakou/powerleader.in/classes.php(12): mysqli->__construct('localhost', 'root', Object(SensitiveParameterValue), 'shivkumar_db')
+#1 {main}
+  thrown in /home/natyakou/powerleader.in/classes.php on line 12
+[06-Jul-2026 06:58:55 UTC] PHP Fatal error:  Uncaught mysqli_sql_exception: Access denied for user 'root'@'localhost' (using password: NO) in /home/natyakou/powerleader.in/classes.php:12
+Stack trace:
+#0 /home/natyakou/powerleader.in/classes.php(12): mysqli->__construct('localhost', 'root', Object(SensitiveParameterValue), 'shivkumar_db')
+#1 {main}
+  thrown in /home/natyakou/powerleader.in/classes.php on line 12
+[06-Jul-2026 07:00:18 UTC] PHP Fatal error:  Uncaught mysqli_sql_exception: Access denied for user 'dkshivkumar_db'@'localhost' (using password: YES) in /home/natyakou/powerleader.in/classes.php:12
+Stack trace:
+#0 /home/natyakou/powerleader.in/classes.php(12): mysqli->__construct('localhost', 'dkshivkumar_db', Object(SensitiveParameterValue), 'dkshivkumar')
+#1 {main}
+  thrown in /home/natyakou/powerleader.in/classes.php on line 12
+[06-Jul-2026 07:00:23 UTC] PHP Fatal error:  Uncaught mysqli_sql_exception: Access denied for user 'dkshivkumar_db'@'localhost' (using password: YES) in /home/natyakou/powerleader.in/classes.php:12
+Stack trace:
+#0 /home/natyakou/powerleader.in/classes.php(12): mysqli->__construct('localhost', 'dkshivkumar_db', Object(SensitiveParameterValue), 'dkshivkumar')
+#1 {main}
+  thrown in /home/natyakou/powerleader.in/classes.php on line 12
+[06-Jul-2026 07:00:27 UTC] PHP Fatal error:  Uncaught mysqli_sql_exception: Access denied for user 'dkshivkumar_db'@'localhost' (using password: YES) in /home/natyakou/powerleader.in/classes.php:12
+Stack trace:
+#0 /home/natyakou/powerleader.in/classes.php(12): mysqli->__construct('localhost', 'dkshivkumar_db', Object(SensitiveParameterValue), 'dkshivkumar')
+#1 {main}
+  thrown in /home/natyakou/powerleader.in/classes.php on line 12
+[06-Jul-2026 07:02:09 UTC] PHP Fatal error:  Uncaught mysqli_sql_exception: Access denied for user 'dkshivkumar_db'@'localhost' (using password: YES) in /home/natyakou/powerleader.in/classes.php:12
+Stack trace:
+#0 /home/natyakou/powerleader.in/classes.php(12): mysqli->__construct('localhost', 'dkshivkumar_db', Object(SensitiveParameterValue), 'dkshivkumar')
+#1 {main}
+  thrown in /home/natyakou/powerleader.in/classes.php on line 12
+[06-Jul-2026 07:03:39 UTC] PHP Fatal error:  Uncaught mysqli_sql_exception: Access denied for user 'dkshivkumar_db'@'localhost' (using password: YES) in /home/natyakou/powerleader.in/db.php:7
+Stack trace:
+#0 /home/natyakou/powerleader.in/db.php(7): mysqli->__construct('localhost', 'dkshivkumar_db', Object(SensitiveParameterValue), 'dkshivkumar')
+#1 /home/natyakou/powerleader.in/login.php(3): require('/home/natyakou/...')
+#2 {main}
+  thrown in /home/natyakou/powerleader.in/db.php on line 7
+[06-Jul-2026 07:03:40 UTC] PHP Fatal error:  Uncaught mysqli_sql_exception: Access denied for user 'dkshivkumar_db'@'localhost' (using password: YES) in /home/natyakou/powerleader.in/classes.php:12
+Stack trace:
+#0 /home/natyakou/powerleader.in/classes.php(12): mysqli->__construct('localhost', 'dkshivkumar_db', Object(SensitiveParameterValue), 'dkshivkumar')
+#1 {main}
+  thrown in /home/natyakou/powerleader.in/classes.php on line 12
+[06-Jul-2026 07:03:59 UTC] PHP Fatal error:  Uncaught mysqli_sql_exception: Access denied for user 'dkshivkumar_db'@'localhost' (using password: YES) in /home/natyakou/powerleader.in/db.php:7
+Stack trace:
+#0 /home/natyakou/powerleader.in/db.php(7): mysqli->__construct('localhost', 'dkshivkumar_db', Object(SensitiveParameterValue), 'dkshivkumar')
+#1 /home/natyakou/powerleader.in/login.php(3): require('/home/natyakou/...')
+#2 {main}
+  thrown in /home/natyakou/powerleader.in/db.php on line 7
+[06-Jul-2026 07:04:02 UTC] PHP Fatal error:  Uncaught mysqli_sql_exception: Access denied for user 'dkshivkumar_db'@'localhost' (using password: YES) in /home/natyakou/powerleader.in/classes.php:12
+Stack trace:
+#0 /home/natyakou/powerleader.in/classes.php(12): mysqli->__construct('localhost', 'dkshivkumar_db', Object(SensitiveParameterValue), 'dkshivkumar')
+#1 {main}
+  thrown in /home/natyakou/powerleader.in/classes.php on line 12
+[06-Jul-2026 07:04:07 UTC] PHP Fatal error:  Uncaught mysqli_sql_exception: Access denied for user 'dkshivkumar_db'@'localhost' (using password: YES) in /home/natyakou/powerleader.in/classes.php:12
+Stack trace:
+#0 /home/natyakou/powerleader.in/classes.php(12): mysqli->__construct('localhost', 'dkshivkumar_db', Object(SensitiveParameterValue), 'dkshivkumar')
+#1 {main}
+  thrown in /home/natyakou/powerleader.in/classes.php on line 12
+[06-Jul-2026 07:04:07 UTC] PHP Fatal error:  Uncaught mysqli_sql_exception: Access denied for user 'dkshivkumar_db'@'localhost' (using password: YES) in /home/natyakou/powerleader.in/db.php:7
+Stack trace:
+#0 /home/natyakou/powerleader.in/db.php(7): mysqli->__construct('localhost', 'dkshivkumar_db', Object(SensitiveParameterValue), 'dkshivkumar')
+#1 /home/natyakou/powerleader.in/login.php(3): require('/home/natyakou/...')
+#2 {main}
+  thrown in /home/natyakou/powerleader.in/db.php on line 7
+[06-Jul-2026 07:04:09 UTC] PHP Fatal error:  Uncaught mysqli_sql_exception: Access denied for user 'dkshivkumar_db'@'localhost' (using password: YES) in /home/natyakou/powerleader.in/db.php:7
+Stack trace:
+#0 /home/natyakou/powerleader.in/db.php(7): mysqli->__construct('localhost', 'dkshivkumar_db', Object(SensitiveParameterValue), 'dkshivkumar')
+#1 /home/natyakou/powerleader.in/login.php(3): require('/home/natyakou/...')
+#2 {main}
+  thrown in /home/natyakou/powerleader.in/db.php on line 7
+[06-Jul-2026 07:11:38 UTC] PHP Fatal error:  Uncaught mysqli_sql_exception: Access denied for user 'dkshivkumar_db'@'localhost' (using password: YES) in /home/natyakou/powerleader.in/db.php:7
+Stack trace:
+#0 /home/natyakou/powerleader.in/db.php(7): mysqli->__construct('localhost', 'dkshivkumar_db', Object(SensitiveParameterValue), 'dkshivkumar')
+#1 /home/natyakou/powerleader.in/login.php(3): require('/home/natyakou/...')
+#2 {main}
+  thrown in /home/natyakou/powerleader.in/db.php on line 7
+[06-Jul-2026 07:15:09 UTC] PHP Fatal error:  Uncaught mysqli_sql_exception: Access denied for user 'dkshivkumar_db'@'localhost' (using password: YES) in /home/natyakou/powerleader.in/db.php:7
+Stack trace:
+#0 /home/natyakou/powerleader.in/db.php(7): mysqli->__construct('localhost', 'dkshivkumar_db', Object(SensitiveParameterValue), 'dkshivkumar')
+#1 /home/natyakou/powerleader.in/login.php(3): require('/home/natyakou/...')
+#2 {main}
+  thrown in /home/natyakou/powerleader.in/db.php on line 7
+[06-Jul-2026 07:18:04 UTC] PHP Fatal error:  Uncaught mysqli_sql_exception: Access denied for user 'dkshivkumar_db'@'localhost' (using password: YES) in /home/natyakou/powerleader.in/classes.php:12
+Stack trace:
+#0 /home/natyakou/powerleader.in/classes.php(12): mysqli->__construct('localhost', 'dkshivkumar_db', Object(SensitiveParameterValue), 'dkshivkumar')
+#1 {main}
+  thrown in /home/natyakou/powerleader.in/classes.php on line 12
+[06-Jul-2026 07:22:53 UTC] PHP Fatal error:  Uncaught mysqli_sql_exception: Access denied for user 'dkshivkumar_db'@'localhost' (using password: YES) in /home/natyakou/powerleader.in/classes.php:12
+Stack trace:
+#0 /home/natyakou/powerleader.in/classes.php(12): mysqli->__construct('localhost', 'dkshivkumar_db', Object(SensitiveParameterValue), 'dkshivkumar')
+#1 {main}
+  thrown in /home/natyakou/powerleader.in/classes.php on line 12
+[06-Jul-2026 07:22:53 UTC] PHP Fatal error:  Uncaught mysqli_sql_exception: Access denied for user 'dkshivkumar_db'@'localhost' (using password: YES) in /home/natyakou/powerleader.in/db.php:7
+Stack trace:
+#0 /home/natyakou/powerleader.in/db.php(7): mysqli->__construct('localhost', 'dkshivkumar_db', Object(SensitiveParameterValue), 'dkshivkumar')
+#1 /home/natyakou/powerleader.in/login.php(3): require('/home/natyakou/...')
+#2 {main}
+  thrown in /home/natyakou/powerleader.in/db.php on line 7
+[06-Jul-2026 07:22:54 UTC] PHP Fatal error:  Uncaught mysqli_sql_exception: Access denied for user 'dkshivkumar_db'@'localhost' (using password: YES) in /home/natyakou/powerleader.in/db.php:7
+Stack trace:
+#0 /home/natyakou/powerleader.in/db.php(7): mysqli->__construct('localhost', 'dkshivkumar_db', Object(SensitiveParameterValue), 'dkshivkumar')
+#1 /home/natyakou/powerleader.in/login.php(3): require('/home/natyakou/...')
+#2 {main}
+  thrown in /home/natyakou/powerleader.in/db.php on line 7
+[06-Jul-2026 07:38:28 UTC] PHP Fatal error:  Uncaught mysqli_sql_exception: Access denied for user 'dkshivkumar_db'@'localhost' (using password: YES) in /home/natyakou/powerleader.in/db.php:7
+Stack trace:
+#0 /home/natyakou/powerleader.in/db.php(7): mysqli->__construct('localhost', 'dkshivkumar_db', Object(SensitiveParameterValue), 'dkshivkumar')
+#1 /home/natyakou/powerleader.in/login.php(3): require('/home/natyakou/...')
+#2 {main}
+  thrown in /home/natyakou/powerleader.in/db.php on line 7
+[06-Jul-2026 07:48:58 UTC] PHP Fatal error:  Uncaught mysqli_sql_exception: Access denied for user 'dkshivkumar_db'@'localhost' (using password: YES) in /home/natyakou/powerleader.in/classes.php:12
+Stack trace:
+#0 /home/natyakou/powerleader.in/classes.php(12): mysqli->__construct('localhost', 'dkshivkumar_db', Object(SensitiveParameterValue), 'dkshivkumar')
+#1 {main}
+  thrown in /home/natyakou/powerleader.in/classes.php on line 12
+[06-Jul-2026 07:49:03 UTC] PHP Fatal error:  Uncaught mysqli_sql_exception: Access denied for user 'dkshivkumar_db'@'localhost' (using password: YES) in /home/natyakou/powerleader.in/classes.php:12
+Stack trace:
+#0 /home/natyakou/powerleader.in/classes.php(12): mysqli->__construct('localhost', 'dkshivkumar_db', Object(SensitiveParameterValue), 'dkshivkumar')
+#1 {main}
+  thrown in /home/natyakou/powerleader.in/classes.php on line 12
